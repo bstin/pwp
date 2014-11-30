@@ -12,8 +12,8 @@ What does it do for me?
 
 		After 30 secs your clipboard buffer will be restored to whatever information it originally contained. 
 
-		Your password file always stored encryped at: ~/.pwp/pwp.enc 
-
+		Your password file always stored encryped at: ~/.pwp/pwp.enc
+                
                 This file is only decypted in memory and decrytped portions are never written to a disk (unless some OS-level swap event happens), therefore should be reasonably secure even on multi-user systems.
                 
                 This is a simple utility, not intended to be a complete solution.  
