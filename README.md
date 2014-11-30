@@ -15,10 +15,9 @@ What does it do for me?
 		Your password file always stored encryped at: ~/.pwp/pwp.enc 
 
                 This file is only decypted in memory and decrytped portions are never written to a disk (unless some OS-level swap event happens), therefore should be reasonably secure even on multi-user systems.
-
-
-		This is a simple utility, not intended to be a complete solution.  
-
+                
+                This is a simple utility, not intended to be a complete solution.  
+                
                 The configuration file is stored in ~/.pwp/pwp.conf
 
 Features:
