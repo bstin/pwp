@@ -6,30 +6,30 @@ Password Paste: A simple command-line password management system (written in go)
 What does it do for me?
 =======================
 		
-  Simply put, it allows you to quickly enter and retrieve passwords and other secure notes. When it retrieves a password it automatically puts it in the clipboard buffer for 30 secs so you can simply paste it where you need. 
+    Simply put, it allows you to quickly enter and retrieve passwords and other secure notes. When it retrieves a password it automatically puts it in the clipboard buffer for 30 secs so you can simply paste it where you need. 
 
-  After 30 secs your clipboard buffer will be restored to whatever information it originally contained. 
+    After 30 secs your clipboard buffer will be restored to whatever information it originally contained. 
 
-  Your password file always stored encryped at: ~/.pwp/pwp.enc
+    Your password file always stored encryped at: ~/.pwp/pwp.enc
 
-  This file is only decypted in memory and decrytped portions are never written to a disk (unless some OS-level swap event happens), therefore should be reasonably secure even on multi-user systems.
+    This file is only decypted in memory and decrytped portions are never written to a disk (unless some OS-level swap event happens), therefore should be reasonably secure even on multi-user systems.
 
-  This is a simple utility, not intended to be a complete solution.  
+    This is a simple utility, not intended to be a complete solution.  
 
-  The configuration file is stored in ~/.pwp/pwp.conf
+    The configuration file is stored in ~/.pwp/pwp.conf
 
 Features:
 ==========
-		* Works on linux / mac / solaris
-		* Simple operation
-                * Copies passwords / notes to clipboard so they can be pasted
-                * Auto-resets clipboard back to default state after 30 secs to prevent any snooping
-		* Can sync encrypted password files to/from remote sites using scp, so you can use one db file on multiple macs
-		
+    * Works on linux / mac / solaris
+    * Simple operation
+    * Copies passwords / notes to clipboard so they can be pasted
+    * Auto-resets clipboard back to default state after 30 secs to prevent any snooping
+    * Can sync encrypted password files to/from remote sites using scp, so you can use one db file on multiple macs
+    
 
 Requirements: 
 =============
-		* some form of command-line clipboard management tools (xclip linux / pbpaste pbcopy on mac) 
+    * some form of command-line clipboard management tools (xclip linux / pbpaste pbcopy on mac) 
 
 
 Example usage:
