@@ -74,7 +74,7 @@ Example usage:
 
 Installation Instructions
 =========================
-               Coming Soon		
+  Coming Soon		
 
 Credits
 ========
